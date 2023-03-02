@@ -11,7 +11,7 @@ Here is where you state the business problem you were trying to solve
 ### Data:
 Data can include source and high-level description (e.g. # obs)
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Metabolic Syndrome Data Dictionary.png"> 
+  <img src = "Metabolic Syndrome Data Dictionary.png"> 
 </p>
 
 ## Methods
