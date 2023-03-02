@@ -22,7 +22,9 @@ Data can include source and high-level description (e.g. # obs)
 
 
 #### Visual 1 Title
-![sample image](project1_sample_image.png)
+<p align = "center"> 
+  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/data_dictionary.png">
+</p>
 
 > Sentence about visualization.
 
