@@ -32,7 +32,7 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
 
 #### How Many Patients Have Metablolic Syndrome?
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Metabolic Syndrome Count Plot.png">
+  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/">
 </p>
 
 -Most patients do not have metabolic syndrome.
