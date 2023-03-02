@@ -9,7 +9,7 @@ Here is where you state the business problem you were trying to solve
 
 
 ### Data:
-<img src = "Metabolic  Syndrome.csv">
+[Metabolic Syndrome Dataset](<img src = "Metabolic  Syndrome.csv">)
 This dataset contains 2401 row and 15 columns. The rows represent 2401 patients and the columns represent 14 features and 1 target.
 <p align = "center"> 
   <img src = "Metabolic Syndrome Data Dictionary.png"> 
