@@ -10,7 +10,9 @@ Here is where you state the business problem you were trying to solve
 
 ### Data:
 Data can include source and high-level description (e.g. # obs)
-
+<p align = "center"> 
+  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Metabolic Syndrome Data Dictionary.png">
+</p>
 
 ## Methods
 - Data preparation steps with explanation and justification for choices
@@ -23,13 +25,15 @@ Data can include source and high-level description (e.g. # obs)
 
 #### Visual 1 Title
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/data_dictionary.png">
+  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Metabolic Syndrome Count Plot.png">
 </p>
 
 > Sentence about visualization.
 
 #### Visual 2 Title
-
+<p align = "center"> 
+  <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Presence of Metabolic Syndrome Based on Risk Factors.png">
+</p>
 ## Model
 
 Describe your final model
