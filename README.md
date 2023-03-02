@@ -12,6 +12,7 @@ Here is where you state the business problem you were trying to solve
 Metabolic Syndrome Dataset https://data.world/informatics-edu/metabolic-syndrome-prediction
 
 This dataset contains 2401 row and 15 columns. The rows represent 2401 patients and the columns represent 14 features and 1 target.
+### Data Dictionary
 <p align = "center"> 
   <img src = "Metabolic Syndrome Data Dictionary.png"> 
 </p>
