@@ -37,14 +37,23 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
 
 -Most patients do not have metabolic syndrome.
 
-#### What Factors Indicate Metabolic Syndrome Diagnosis?
+## Explanatory 
+
+#### What Health Factors Indicate Metabolic Syndrome Diagnosis?
 <p align = "center"> 
   <img src = "https://raw.githubusercontent.com/Beagan19/Classification-Metabolic-Syndrome-Prediction/main/Presence of Metabolic Syndrome Based on Risk Factors.png">
 </p>
 
 - The higher the numbers are for blood glucose, bmi, and triglycerides for both males and females, the more likely a patient developed metabolic syndrome.
 - The higher the numbers for HDL for both males and females, the more likely a patient does not develop metabolic syndrome.
+### Do Demographics Play a Part in Developing Metabolic Syndrome?
+<p align = "center"> 
+  <img src = "Presence of Metabolic Syndrome Based on Demographics.png">
+</p>
 
+- An older age could have an impact on whether a patient developed metabolic syndrome for both males and femaales.
+
+- Income is approximately equivalent for males with and without metabolic syndrome. However, a higher income for females could decrease the possibility of developing metabolic syndrome.
 ## Model
 
 Describe your final model
