@@ -1,11 +1,11 @@
 # Classification-Metabolic-Syndrome-Prediction
-## Analyzing Key Risk Factors and Demographics to Predict the Presence of Metabolic Syndrome 
+## Analyzing Key Risk Factors and Demographics to Predict the Presence of Metabolic Syndrome in Patients
 
 **Author**: Brooke Eagan
 
 ### Business problem:
+To provide the best care, different health and demographic factors are used to create a machine learning model to predict whether a patient has developed metabolic syndrome.
 
-Here is where you state the business problem you were trying to solve
 
 
 ### Data:
@@ -54,22 +54,63 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
 - An older age could have an impact on whether a patient developed metabolic syndrome for both males and femaales.
 
 - Income is approximately equivalent for males with and without metabolic syndrome. However, a higher income for females could decrease the possibility of developing metabolic syndrome.
-## Model
+## Models Evaluated & Results
+- Logistic Regression:
+  - accuracy: 0.82
 
-Describe your final model
+- f1-score:
+  - MetSyn     0.74
+  - No MetSyn  0.87
+  
+- precision:
+  - MetSyn     0.76
+  - No MetSyn  0.86
 
-Report the most important metrics
+- recall:
+  - MetSyn     0.72
+  - No MetSyn  0.88
 
-Refer to the metrics to describe how well the model would solve the business problem
+- Random Forest Classifier:
+  - accuracy: 0.81
 
-## Recommendations:
+  - f1-score:
+    - MetSyn     0.73
+    - No MetSyn  0.878
+  
+  - precision:
+    - MetSyn     0.71
+    - No MetSyn  0.86
 
-More of your own text here
+  - recall:
+   - MetSyn     0.74
+   - No MetSyn  0.85
+
+The Final Model Chosen was a Logistic Regression Model with the inverse of regulation strength ('c') was tuned to .06. The pca n_components was tuned to 11. 'Most frequent' was the strategy used to impute missing numeric values. 
+
+## Recommended Model: Logistic Regression
+- It has the highest accuracy score and f1-score. It is important to minimize the number of false positives and false negatives when dianosing a disease so both type 1 and type 2 errors need to be examined.
+
+**Tuned Logistic Regression Model Test Scores**
+
+- accuracy:
+  - 0.82
+
+- f1-score:
+  - MetSyn     0.74
+  - No MetSyn  0.87
+  
+- precision:
+  - MetSyn     0.76
+  - No MetSyn  0.86
+
+- recall:
+  - MetSyn     0.72
+  - No MetSyn  0.88
 
 
 ## Limitations & Next Steps
 
-More of your own text here
+With hypertuning parameters, I was not able to exceed 82% accuracy. The first step would be to add columns to the data using feature engineering. Then tune and run the models again to try to obtain better prediction results.
 
 
 ### For further information
