@@ -82,8 +82,8 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
     - No MetSyn  0.86
 
   - recall:
-   - MetSyn     0.74
-   - No MetSyn  0.85
+    - MetSyn     0.74
+    - No MetSyn  0.85
 
 The Final Model Chosen was a Logistic Regression Model with the inverse of regulation strength ('c') was tuned to .06. The pca n_components was tuned to 11. 'Most frequent' was the strategy used to impute missing numeric values. 
 
