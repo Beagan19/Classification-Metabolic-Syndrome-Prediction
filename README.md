@@ -58,17 +58,17 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
 - Logistic Regression:
   - accuracy: 0.82
 
-- f1-score:
-  - MetSyn     0.74
-  - No MetSyn  0.87
+  - f1-score:
+    - MetSyn     0.74
+    - No MetSyn  0.87
   
-- precision:
-  - MetSyn     0.76
-  - No MetSyn  0.86
+  - precision:
+    - MetSyn     0.76
+    - No MetSyn  0.86
 
-- recall:
-  - MetSyn     0.72
-  - No MetSyn  0.88
+  - recall:
+    - MetSyn     0.72
+    - No MetSyn  0.88
 
 - Random Forest Classifier:
   - accuracy: 0.81
