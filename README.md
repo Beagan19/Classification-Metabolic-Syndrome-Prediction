@@ -75,7 +75,7 @@ This dataset contains 2401 row and 15 columns. The rows represent 2401 patients 
 
   - f1-score:
     - MetSyn     0.73
-    - No MetSyn  0.878
+    - No MetSyn  0.85
   
   - precision:
     - MetSyn     0.71
